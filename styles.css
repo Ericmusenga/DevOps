@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 50px auto;
+    max-width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+.card-header a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #0056b3;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card-header a:hover {
+    background-color: #004494;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.table-bordered {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.table-bordered th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.table-bordered tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.btn-info, .btn-danger {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
